@@ -54,3 +54,12 @@ class Order:
    - Si hay elementos disponibles, obtiene el elemento actual basado en `_index`.
    - Incrementa `_index` en `1` para apuntar al siguiente elemento en la siguiente iteración.
    - Devuelve el elemento actual, permitiendo que el bucle `for` lo procese.
+
+### ¿El Código Cumple Todos los Requisitos?
+
+Sí, el código cumple con todos los requisitos del ejercicio:
+
+- Creé una nueva clase (`Order`) que gestiona los pedidos.
+- Implementé la iterabilidad con `__iter__()` y `__next__()`.
+- Se pueden recorrer todos los elementos del pedido con `for item in order`.
+- Cada ítem mantiene todos sus atributos (nombre, precio, descuento).
