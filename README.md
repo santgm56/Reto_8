@@ -57,8 +57,6 @@ class Order:
 
 ### ¿El Código Cumple Todos los Requisitos?
 
-Sí, el código cumple con todos los requisitos del ejercicio:
-
 - Creé una nueva clase (`Order`) que gestiona los pedidos.
 - Implementé la iterabilidad con `__iter__()` y `__next__()`.
 - Se pueden recorrer todos los elementos del pedido con `for item in order`.
